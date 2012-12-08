@@ -24,26 +24,26 @@ no_index:
 provides:
   Class::User::DBI:
     file: lib/Class/User/DBI.pm
-    version: 0.09
+    version: 0.10
+  Class::User::DBI::Domains:
+    file: lib/Class/User/DBI/Domains.pm
+    version: 0.10
+  Class::User::DBI::Privileges:
+    file: lib/Class/User/DBI/Privileges.pm
+    version: 0.10
+  Class::User::DBI::RolePrivileges:
+    file: lib/Class/User/DBI/RolePrivileges.pm
+    version: 0.10
+  Class::User::DBI::Roles:
+    file: lib/Class/User/DBI/Roles.pm
+    version: 0.10
+  Class::User::DBI::Userdomains:
+    file: lib/Class/User/DBI/UserDomains.pm
+    version: 0.10
 requires:
   Authen::Passphrase::SaltedSHA512: 0.06
   DBIx::Connector: 0
   List::MoreUtils: 0
   perl: 5.008000
 resources: {}
-version: 0.09
-x_Class::User::DBI::Domains:
-  file: lib/Class/User/DBI/Domains.pm
-  version: 0.09
-x_Class::User::DBI::Privileges:
-  file: lib/Class/User/DBI/Privileges.pm
-  version: 0.09
-x_Class::User::DBI::RolePrivileges:
-  file: lib/Class/User/DBI/RolePrivileges.pm
-  version: 0.09
-x_Class::User::DBI::Roles:
-  file: lib/Class/User/DBI/Roles.pm
-  version: 0.09
-x_Class::User::DBI::Userdomains:
-  file: lib/Class/User/DBI/UserDomains.pm
-  version: 0.09
+version: 0.10
